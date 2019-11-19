@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`micro-methods should fail to serve a request with an unsupported method: body 1`] = `
+Array [
+  "{\\"title\\":\\"Method Not Allowed\\",\\"status\\":405,\\"detail\\":\\"The HTTP method you specified is not supported by the requested resource. Check if you should be using one of the supported methods instead.\\",\\"supported\\":[\\"GET\\"],\\"requested\\":\\"POST\\"}",
+]
+`;
+
+exports[`micro-methods should fail to serve a request with an unsupported method: setHeader calls 1`] = `
+Array [
+  Array [
+    "Content-Type",
+    "application/json+problem",
+  ],
+  Array [
+    "Content-Length",
+    234,
+  ],
+]
+`;
